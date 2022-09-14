@@ -6,9 +6,37 @@
 
 section{
    width: 100%;
-   height: 400px; 
+   height: 850px; 
+   text-align: center;
+   padding: 40px 4%;
+   font-family: roboto;
+   color: rgb(20,20,20);
+
+
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
+
+h1{
+    margin-bottom: 40px;
+}
+
+
 section:nth-of-type(1){
-    background-image: url();
+    background-image: url("../images/image1.jpg");
+}
+
+section:nth-of-type(3){
+    background-image: url("../images/image2.jpg");
+}
+
+section:nth-of-type(5){
+    background-image: url("../images/image3.png");
+}
+
+section:nth-of-type(7){
+    background-image: url("../images/image4.jpg");
 }
